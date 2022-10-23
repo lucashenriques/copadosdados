@@ -25,13 +25,13 @@ model = joblib.load('model.pkl')
 nome_time = { 'France': 0, 'Mexico': 1, 'USA': 2, 'Belgium': 3, 'Yugoslavia': 4, 'Brazil': 5, 'Romania': 6, 'Peru': 7, 'Argentina': 8,
             'Chile': 9, 'Bolivia': 10, 'Paraguay': 11, 'Uruguay': 12, 'Austria': 13,'Hungary': 14, 'Egypt': 15, 'Switzerland': 16, 'Netherlands': 17,
             'Sweden': 18, 'Germany': 19, 'Spain': 20, 'Italy': 21, 'Czechoslovakia': 22, 'Dutch East Indies': 23, 'Cuba': 24, 'Norway': 25,
-            'Poland': 26, 'England': 27, 'Scotland': 28, 'Turkey': 29, 'Korea Republic': 30, 'Soviet Union': 31, 'Wales': 32, 'Northern Ireland': 33,
-            'Colombia': 34, 'Bulgaria': 35, 'Korea DPR': 36, 'Portugal': 37, 'Israel': 38, 'Morocco': 39, 'El Salvador': 40, 'German DR': 41,
+            'Poland': 26, 'England': 27, 'Scotland': 28, 'Turkey': 29, 'South Korea': 30, 'Soviet Union': 31, 'Wales': 32, 'Northern Ireland': 33,
+            'Colombia': 34, 'Bulgaria': 35, 'North Korea': 36, 'Portugal': 37, 'Israel': 38, 'Morocco': 39, 'El Salvador': 40, 'German DR': 41,
             'Australia': 42, 'Zaire': 43, 'Haiti': 44, 'Tunisia': 45, 'IR Iran': 46, 'Iran': 47, 'Cameroon': 48, 'New Zealand': 49, 'Algeria': 50,
-            'Honduras': 51, 'Kuwait': 52, 'Canada': 53, 'Iraq': 54, 'Denmark': 55, 'rn">United Arab Emirates': 56, 'Costa Rica': 57, 'rn">Republic of Ireland': 58,
+            'Honduras': 51, 'Kuwait': 52, 'Canada': 53, 'Iraq': 54, 'Denmark': 55, 'United Arab Emirates': 56, 'Costa Rica': 57, 'Republic of Ireland': 58,
             'Saudi Arabia': 59, 'Russia': 60,   'Greece': 61,   'Nigeria': 62,  'South Africa': 63, 'Japan': 64,    'Jamaica': 65,  'Croatia': 66,
-            'Senegal': 67, 'Slovenia': 68, 'Ecuador': 69, 'China PR': 70, 'rn">Trinidad and Tobago': 71, "Côte d'Ivoire": 72, 'rn">Serbia and Montenegro': 73,
-            'Angola': 74,  'Czech Republic': 75, 'Ghana': 76, 'Togo': 77, 'Ukraine': 78, 'Serbia': 79, 'Slovakia': 80, 'rn">Bosnia and Herzegovina': 81,
+            'Senegal': 67, 'Slovenia': 68, 'Ecuador': 69, 'China': 70, 'Trinidad and Tobago': 71, "Côte d'Ivoire": 72, 'Serbia and Montenegro': 73,
+            'Angola': 74,  'Czech Republic': 75, 'Ghana': 76, 'Togo': 77, 'Ukraine': 78, 'Serbia': 79, 'Slovakia': 80, 'rBosnia and Herzegovina': 81,
             'Iceland': 82,'Panama': 83, 'Qatar': 84 } 
 
 df_campeoes = pd.read_csv("Campeoes.csv")
